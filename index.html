@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatGPT-local KodeBidean</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1>KodeBidean GPT</h1>
+    </header>
+    
+    <main>
+        
+        <ul>
+            
+        </ul>
+        
+        
+
+    </main>
+
+    <form>
+        <input type="text" placeholder="Escribe tu mensaje">
+        <button disabled="false">Enviar</button>
+    </form>
+
+    <small>&nbsp;</small> <!--Espacio en blanco sin salto-->
+
+    <!--No se renderiza en JS y sirve para reutilizar el código de su contenido-->
+    <template id="message-template"> 
+        <li class="message">
+            <span></span>
+            <p></p>
+        </li>
+    </template>
+    <span class="firma">made in: KodeBidean.com</span>
+    <script src="main.js" type="module"></script>
+    
+
+  </body>
+</html>
